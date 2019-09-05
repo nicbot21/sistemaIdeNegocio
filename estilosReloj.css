@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+}
+/*reloj*/
+body{
+	/*background: url(../imagenes/sunset.jpg) black;*/
+	background-size: cover;/*la imagen se ajusta al ancho de la pantalla del usr*/
+	color: white;
+	font-size: 16px;
+}
+.wrap{
+	width:90%;
+	max-width: 800px;
+}
+.widget{
+	width:100%;
+	margin:1em;
+	margin-right: 0px;
+	
+}
+.widget p{
+	display:inline-block;
+	line-height: 1em;
+}
+.fecha{
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 0.3125rem;
+	background: rgb(54, 152, 244);
+	padding: 20px;
+	width: 100%
+}
+.reloj{
+	text-align: center;
+	font-size: 8em;
+	margin-bottom: 0.3125rem;
+	background: rgb(54, 152, 244);
+	padding: 20px;
+	width: 100%
+}
+.reloj .caja-segundos{
+	display:inline-block;
+}
+.reloj .segundos,
+.reloj .ampm{
+	font-size: 2rem;
+	display:block;
+}
